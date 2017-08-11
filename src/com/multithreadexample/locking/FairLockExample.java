@@ -26,7 +26,7 @@ public class FairLockExample {
 }
 
 class FairCounter {
-	private ReentrantLock lock = new ReentrantLock(Boolean.TRUE);
+	private java.util.concurrent.locks.Lock lock = new ReentrantLock(Boolean.TRUE);
 	private int count = 0;
 
 	public int inc() {
