@@ -48,7 +48,7 @@ public class CustomList<E> implements Iterable<E> {
 		
 	}
 	
-	@Override
+	
 	public Iterator<E> iterator() {
 		return new CustomIterator();
 	}

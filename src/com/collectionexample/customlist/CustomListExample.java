@@ -1,6 +1,5 @@
 package com.collectionexample.customlist;
 
-import java.util.Iterator;
 
 
 public class CustomListExample {
@@ -16,10 +15,16 @@ public class CustomListExample {
 		customList.add("basant");
 		customList.add("manish");
 		//custom iterator return
-		Iterator<String> iterator = customList.iterator();
+		/*Iterator<String> iterator = customList.iterator();
 		while(iterator.hasNext()){
 			System.out.println(iterator.next());
 		}
+		*/
+		
+		for(String str : customList){
+			System.out.println(str);
+		}
+		
 		
 		
 	}
